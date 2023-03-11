@@ -74,7 +74,7 @@ class WeatherFragment : Fragment() {
 
     // TODO: getIdentifier coil integration
     private fun getDataWithLatLng(selectedCity: SelectedCity) {
-        val api = "1748f38be2d0323543611c62abe308c3"
+        val api = ""
         val baseurl = "https://api.openweathermap.org/data/2.5/"
 
         val retrofit = Retrofit.Builder()
