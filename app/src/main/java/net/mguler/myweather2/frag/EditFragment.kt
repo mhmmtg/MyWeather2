@@ -141,7 +141,7 @@ class EditFragment : Fragment() {
 
     private fun getCitySuggestion(text: String) {
         val baseurl = "https://api.geoapify.com/v1/geocode/"
-        val api = "7f08b2eaf0844faba51d154280909e49"
+        val api = ""
         val type = "city"
         val bias = "countrycode:tr"
 
